@@ -220,7 +220,7 @@ export function Component() {
   )
 }
 
-function DatabaseIcon(props) {
+function DatabaseIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -242,7 +242,7 @@ function DatabaseIcon(props) {
 }
 
 
-function ForwardIcon(props) {
+function ForwardIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -263,7 +263,7 @@ function ForwardIcon(props) {
 }
 
 
-function GitGraphIcon(props) {
+function GitGraphIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -288,7 +288,7 @@ function GitGraphIcon(props) {
 }
 
 
-function LeafIcon(props) {
+function LeafIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -309,7 +309,7 @@ function LeafIcon(props) {
 }
 
 
-function PianoIcon(props) {
+function PianoIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -334,7 +334,7 @@ function PianoIcon(props) {
 }
 
 
-function RedoDotIcon(props) {
+function RedoDotIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -356,7 +356,7 @@ function RedoDotIcon(props) {
 }
 
 
-function TypeIcon(props) {
+function TypeIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -378,7 +378,7 @@ function TypeIcon(props) {
 }
 
 
-function WindIcon(props) {
+function WindIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
